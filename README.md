@@ -5,7 +5,7 @@
 A two-sided marketplace that connects photographers with the customers who want to hire them
 
 Photographers build a profile, tag the shoots they offer, and showcase a portfolio.
-Customers browse, filter by category & location, view work, and **chat in real time** to book a shoot
+Customers browse, filter by category & location, view work, and chat in real time to book a shoot
 
 <br/>
 
@@ -19,7 +19,17 @@ Customers browse, filter by category & location, view work, and **chat in real t
 
 <br/>
 
-## ✨ Highlights
+## 📖 Overview
+
+**Grapher Mart** is a two-sided web marketplace that bridges the gap between photographers looking for work and customers looking to hire them.
+
+Photographers sign up, create a rich profile tagged with the kinds of shoots they offer (weddings, fashion, and more), and build a visual portfolio of their best work. Customers browse this catalogue, filter by category and location to find the right fit, explore full portfolios, and start a real-time conversation to discuss and arrange a shoot.
+
+The entire application is **serverless** — authentication, the database, and image storage are all powered by Firebase, allowing the project to focus purely on a fast, interactive React frontend.
+
+<br/>
+
+## ✨ Key Highlights
 
 - ⚡ **Real-time chat** between customers and photographers, powered by Cloud Firestore live listeners.
 - 🔐 **Full auth flow** for two distinct user roles (photographers & customers) using Firebase Authentication.
@@ -41,7 +51,7 @@ Customers browse, filter by category & location, view work, and **chat in real t
 
 <br/>
 
-## 🚀 Features
+## 🚀 Features & Functionality
 
 ### 👤 For Photographers
 
