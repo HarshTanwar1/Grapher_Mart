@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center">  
 
 # 📸 Grapher Mart
 
@@ -73,21 +73,30 @@ The entire application is **serverless** — authentication, the database, and i
 
 ## ⚙️ Getting Started
 
+### 1. Clone the repository
+
 ```bash
-# 1. Clone the repository
 git clone https://github.com/HarshTanwar1/Grapher_Mart.git
 cd Grapher_Mart
+```
 
-# 2. Install dependencies
+### 2. Install dependencies
+
+```bash
 npm install
+```
 
-# 3. Start the development server
+### 3. Configure Firebase
+
+Update the config in [src/firebase.js](src/firebase.js) with your project credentials, then enable **Email/Password Authentication**, **Cloud Firestore**, and **Cloud Storage** in the Firebase console.
+
+### 4. Start the development server
+
+```bash
 npm start
 ```
 
 The app runs at **[http://localhost:3000](http://localhost:3000)** and reloads automatically on edits.
-
-> **Configuring your own Firebase:** update the config in [src/firebase.js](src/firebase.js) with your project credentials, then enable **Email/Password Authentication**, **Cloud Firestore**, and **Cloud Storage** in the Firebase console
 
 <br/>
 
